@@ -1,0 +1,19 @@
+{
+  "name": "gym-member-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "http-server -p 8081",
+   "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^135.0.4",
+    "http-server": "^14.1.1",
+    "mocha": "^11.1.0",
+    "selenium-webdriver": "^4.31.0"
+  }
+}

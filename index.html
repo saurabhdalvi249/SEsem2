@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Member Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gym Member Information</h1>
+
+        <!-- Form to Add New Member -->
+        <div class="form-container">
+            <h2>Add a New Member</h2>
+            <form id="member-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+
+                <label for="membership">Membership:</label>
+                <select id="membership" name="membership">
+                    <option value="Gold">Gold</option>
+                    <option value="Silver">Silver</option>
+                    <option value="Platinum">Platinum</option>
+                </select>
+
+                <button type="submit">Add Member</button>
+            </form>
+        </div>
+
+        <!-- Displaying Member Info -->
+        <div id="member-info">
+            <h2>Members List</h2>
+            <div id="members-list">
+                <!-- New member info will be appended here dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
